@@ -3,13 +3,13 @@ import { getAuth } from 'firebase/auth';
 import { getDatabase } from 'firebase/database';
 
 const firebaseConfig = {
-  // apiKey: 'SUA_API_KEY',
-  // authDomain: 'SEU_AUTH_DOMAIN',
-  // projectId: 'SEU_PROJECT_ID',
-  // databaseURL: 'SUA_DATABASE_URL'
-  // storageBucket: 'SEU_STORAGE_BUCKET',
-  // messagingSenderId: 'SEU_MESSAGING_SENDER_ID',
-  // appId: 'SEU_APP_ID',
+  apiKey: "AIzaSyABmJ4obFGFCDZbXDAVKBZi1AUKqjerz3o",
+  authDomain: "mobile-eca7c.firebaseapp.com",
+  projectId: "mobile-eca7c",
+  storageBucket: "mobile-eca7c.firebasestorage.app",
+  messagingSenderId: "373723243283",
+  appId: "1:373723243283:web:43f6dc98797664d82870e6",
+  databaseURL: "https://mobile-eca7c-default-rtdb.firebaseio.com/"
 };
 
 const app = initializeApp(firebaseConfig);
